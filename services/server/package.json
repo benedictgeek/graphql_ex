@@ -14,5 +14,8 @@
     "express-graphql": "^0.12.0",
     "install": "^0.13.0",
     "npm": "^8.19.1"
+  },
+  "devDependencies": {
+    "tsconfig": "workspace:tsconfig"
   }
 }

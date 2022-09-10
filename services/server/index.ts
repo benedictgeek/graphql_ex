@@ -7,6 +7,7 @@ import {
   GraphQLNonNull,
   GraphQLInt,
   GraphQLString,
+  GraphQLList,
 } from "graphql";
 import { graphqlHTTP } from "express-graphql";
 
@@ -39,7 +40,7 @@ const AppQueryType = new GraphQLObjectType({
   fields: (): GraphQLFieldConfigMap<any, any> => {
     return {
       cars: {
-        type: CarType,
+        type: GraphQLList(CarType),
         description: "List all cars",
         resolve: () => {
           return cars;

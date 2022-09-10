@@ -32,7 +32,7 @@ const AppQueryType = new graphql_1.GraphQLObjectType({
     fields: () => {
         return {
             cars: {
-                type: CarType,
+                type: (0, graphql_1.GraphQLList)(CarType),
                 description: "List all cars",
                 resolve: () => {
                     return cars;
@@ -46,3 +46,4 @@ const Schema = new graphql_1.GraphQLSchema({
     //  mutation: ""
 });
 app.use("/graphql", (0, express_graphql_1.graphqlHTTP)({ schema: Schema, graphiql: true }));
+app.listen(4040, () => console.log("Server started"));
