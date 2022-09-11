@@ -1,4 +1,4 @@
-[35mserver:start[0m: cache hit, replaying output [2m6aa50bf142d3b926[0m
+[35mserver:start[0m: cache hit, replaying output [2m47ca0b18edc2bc30[0m
 [35mserver:start: [0m
 [35mserver:start: [0m> server@1.0.0 start
 [35mserver:start: [0m> tsc --watch & nodemon index.js
@@ -8,867 +8,678 @@
 [35mserver:start: [0m[33m[nodemon] watching path(s): *.*[39m
 [35mserver:start: [0m[33m[nodemon] watching extensions: js,mjs,json[39m
 [35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mc15:19:45 - Starting compilation in watch mode...
+[35mserver:start: [0mc15:50:12 - Starting compilation in watch mode...
 [35mserver:start: [0m
-[35mserver:start: [0merror TS18003: No inputs were found in config file '/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/tsconfig.json'. Specified 'include' paths were '["../../packages/tsconfig/**/*.ts","../../packages/tsconfig/**/*.tsx"]' and 'exclude' paths were '["dist"]'.
+[35mserver:start: [0minternal/modules/cjs/loader.js:905
+[35mserver:start: [0m  throw err;
+[35mserver:start: [0m  ^
 [35mserver:start: [0m
-[35mserver:start: [0m15:19:45 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:7
-[35mserver:start: [0mvar app = (0, express_1["default"])();
-[35mserver:start: [0m                                   ^
-[35mserver:start: [0m
-[35mserver:start: [0mTypeError: (0 , express_1.default) is not a function
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:7:36)
+[35mserver:start: [0mError: Cannot find module './src/cars'
+[35mserver:start: [0mRequire stack:
+[35mserver:start: [0m- /Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js
+[35mserver:start: [0m    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+[35mserver:start: [0m    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+[35mserver:start: [0m    at Module.require (internal/modules/cjs/loader.js:974:19)
+[35mserver:start: [0m    at require (internal/modules/cjs/helpers.js:93:18)
+[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:9:16)
 [35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+[35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
+[35mserver:start: [0m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+[35mserver:start: [0m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+[35mserver:start: [0m  code: 'MODULE_NOT_FOUND',
+[35mserver:start: [0m  requireStack: [
+[35mserver:start: [0m    '/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js'
+[35mserver:start: [0m  ]
+[35mserver:start: [0m}
+[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[35mserver:start: [0m
+[35mserver:start: [0m15:50:14 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc15:50:40 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m15:50:41 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc16:15:34 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m16:15:34 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc16:15:51 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(13,8): error TS1123: Variable declaration list cannot be empty.
+[35mserver:start: [0m
+[35mserver:start: [0m16:15:51 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc16:15:54 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(13,17): error TS1109: Expression expected.
+[35mserver:start: [0m
+[35mserver:start: [0m16:15:54 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc16:16:09 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(15,3): error TS1109: Expression expected.
+[35mserver:start: [0m
+[35mserver:start: [0m16:16:09 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc16:16:14 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(15,3): error TS1109: Expression expected.
+[35mserver:start: [0m
+[35mserver:start: [0m16:16:15 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc16:16:17 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m16:16:17 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc16:16:33 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m16:16:33 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc16:16:46 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m16:16:46 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:49:02 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:49:02 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:49:08 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(13,14): error TS2323: Cannot redeclare exported variable 'createCar'.
+[35mserver:start: [0msrc/cars/mutations.tsx(24,10): error TS2323: Cannot redeclare exported variable 'createCar'.
+[35mserver:start: [0msrc/cars/mutations.tsx(24,10): error TS2484: Export declaration conflicts with exported declaration of 'createCar'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:49:08 - Found 3 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:49:37 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(13,14): error TS2451: Cannot redeclare block-scoped variable 'createCar'.
+[35mserver:start: [0msrc/cars/mutations.tsx(24,15): error TS1182: A destructuring declaration must have an initializer.
+[35mserver:start: [0msrc/cars/mutations.tsx(24,17): error TS2451: Cannot redeclare block-scoped variable 'createCar'.
+[35mserver:start: [0msrc/cars/mutations.tsx(24,17): error TS7031: Binding element 'createCar' implicitly has an 'any' type.
+[35mserver:start: [0m
+[35mserver:start: [0m18:49:37 - Found 4 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:49:39 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(24,19): error TS1005: ',' expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:49:39 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:49:42 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(24,27): error TS1005: ',' expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:49:42 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:49:44 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:49:44 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:52:18 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:52:18 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:52:21 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(13,6): error TS1123: Variable declaration list cannot be empty.
+[35mserver:start: [0m
+[35mserver:start: [0m18:52:21 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:52:26 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(13,7): error TS1155: 'const' declarations must be initialized.
+[35mserver:start: [0msrc/cars/mutations.tsx(13,7): error TS7005: Variable 'create' implicitly has an 'any' type.
+[35mserver:start: [0m
+[35mserver:start: [0m18:52:26 - Found 2 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:52:30 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(13,7): error TS1155: 'const' declarations must be initialized.
+[35mserver:start: [0msrc/cars/mutations.tsx(13,7): error TS7005: Variable 'createCarArgs' implicitly has an 'any' type.
+[35mserver:start: [0m
+[35mserver:start: [0m18:52:30 - Found 2 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:52:33 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(13,7): error TS1155: 'const' declarations must be initialized.
+[35mserver:start: [0msrc/cars/mutations.tsx(13,22): error TS2707: Generic type 'GraphQLFieldConfig<TSource, TContext, TArgs>' requires between 2 and 3 type arguments.
+[35mserver:start: [0m
+[35mserver:start: [0m18:52:33 - Found 2 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:52:39 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(13,51): error TS1005: ',' expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:52:39 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:52:48 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(13,51): error TS1005: ',' expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:52:48 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:52:53 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(14,5): error TS2322: Type '{ id: { type: GraphQLScalarType; }; }' is not assignable to type 'GraphQLFieldConfig<any, any, { [argName: string]: any; }>'.
+[35mserver:start: [0m  Object literal may only specify known properties, and 'id' does not exist in type 'GraphQLFieldConfig<any, any, { [argName: string]: any; }>'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:52:53 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:53:14 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:53:14 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:53:16 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:53:16 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:53:39 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(20,1): error TS1005: ',' expected.
+[35mserver:start: [0msrc/cars/mutations.tsx(21,1): error TS1005: ',' expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:53:39 - Found 2 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:53:45 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(20,1): error TS1005: ',' expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:53:45 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:53:50 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(20,1): error TS1005: ',' expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:53:50 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:53:53 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(19,1): error TS2741: Property 'type' is missing in type '{}' but required in type 'GraphQLArgumentConfig'.
+[35mserver:start: [0msrc/cars/mutations.tsx(20,1): error TS18004: No value exists in scope for the shorthand property 'ownerId'. Either declare one or provide an initializer.
+[35mserver:start: [0m
+[35mserver:start: [0m18:53:53 - Found 2 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:53:55 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(19,1): error TS2741: Property 'type' is missing in type '{}' but required in type 'GraphQLArgumentConfig'.
+[35mserver:start: [0msrc/cars/mutations.tsx(20,1): error TS2741: Property 'type' is missing in type '{}' but required in type 'GraphQLArgumentConfig'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:53:55 - Found 2 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:53:57 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(18,5): error TS2741: Property 'type' is missing in type '{}' but required in type 'GraphQLArgumentConfig'.
+[35mserver:start: [0msrc/cars/mutations.tsx(19,5): error TS2741: Property 'type' is missing in type '{}' but required in type 'GraphQLArgumentConfig'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:53:57 - Found 2 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:54:02 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(18,13): error TS18004: No value exists in scope for the shorthand property 'type'. Either declare one or provide an initializer.
+[35mserver:start: [0msrc/cars/mutations.tsx(19,5): error TS2741: Property 'type' is missing in type '{}' but required in type 'GraphQLArgumentConfig'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:54:03 - Found 2 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:54:04 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(18,19): error TS1109: Expression expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:54:04 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:54:10 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(19,5): error TS2741: Property 'type' is missing in type '{}' but required in type 'GraphQLArgumentConfig'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:54:10 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:54:15 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(18,36): error TS1005: ',' expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:54:15 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:54:20 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(18,19): error TS2554: Expected 1 arguments, but got 0.
+[35mserver:start: [0msrc/cars/mutations.tsx(19,5): error TS2741: Property 'type' is missing in type '{}' but required in type 'GraphQLArgumentConfig'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:54:20 - Found 2 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:54:22 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(19,5): error TS2741: Property 'type' is missing in type '{}' but required in type 'GraphQLArgumentConfig'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:54:22 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:54:24 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(19,5): error TS2741: Property 'type' is missing in type '{}' but required in type 'GraphQLArgumentConfig'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:54:24 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:54:35 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(19,5): error TS2741: Property 'type' is missing in type '{}' but required in type 'GraphQLArgumentConfig'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:54:35 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:54:37 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(19,5): error TS2741: Property 'type' is missing in type '{}' but required in type 'GraphQLArgumentConfig'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:54:37 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:54:38 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:54:38 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:54:43 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:54:43 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:54:45 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:54:45 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:56:36 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:56:36 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:56:38 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(22,5): error TS1440: Variable declaration not allowed at this location.
+[35mserver:start: [0msrc/cars/mutations.tsx(23,5): error TS1109: Expression expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:56:38 - Found 2 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:56:39 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:56:39 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:56:40 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(23,5): error TS1109: Expression expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:56:40 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:56:42 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:56:42 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:56:46 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(22,23): error TS1109: Expression expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:56:46 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:56:50 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:56:50 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:56:52 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(22,26): error TS18004: No value exists in scope for the shorthand property 'brand'. Either declare one or provide an initializer.
+[35mserver:start: [0m
+[35mserver:start: [0m18:56:52 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:56:58 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:56:58 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:56:59 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:00 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:57:06 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:06 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:57:12 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(24,1): error TS1128: Declaration or statement expected.
+[35mserver:start: [0msrc/cars/mutations.tsx(25,5): error TS1005: ',' expected.
+[35mserver:start: [0msrc/cars/mutations.tsx(25,12): error TS1005: ':' expected.
+[35mserver:start: [0msrc/cars/mutations.tsx(25,49): error TS1005: ',' expected.
+[35mserver:start: [0msrc/cars/mutations.tsx(27,1): error TS1128: Declaration or statement expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:12 - Found 5 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:57:14 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(24,1): error TS1128: Declaration or statement expected.
+[35mserver:start: [0msrc/cars/mutations.tsx(24,2): error TS1003: Identifier expected.
+[35mserver:start: [0msrc/cars/mutations.tsx(25,5): error TS1005: ',' expected.
+[35mserver:start: [0msrc/cars/mutations.tsx(25,12): error TS1005: ':' expected.
+[35mserver:start: [0msrc/cars/mutations.tsx(25,49): error TS1005: ',' expected.
+[35mserver:start: [0msrc/cars/mutations.tsx(27,1): error TS1128: Declaration or statement expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:14 - Found 6 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:57:22 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:22 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:57:29 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:30 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:57:34 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(23,11): error TS2339: Property 'pu' does not exist on type '{ id: number; brand: string; ownerId: number; }[]'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:34 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:57:36 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:36 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:57:38 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/mutations.tsx(23,19): error TS1109: Expression expected.
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:38 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:57:39 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:39 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:57:41 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:41 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:57:46 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:46 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:57:50 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:57:51 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:58:03 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/index.tsx(1,10): error TS2300: Duplicate identifier 'carsQuery'.
+[35mserver:start: [0msrc/cars/index.tsx(2,10): error TS2300: Duplicate identifier 'carsQuery'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:58:04 - Found 2 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:58:06 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/index.tsx(1,10): error TS2300: Duplicate identifier 'carsQuery'.
+[35mserver:start: [0msrc/cars/index.tsx(2,10): error TS2300: Duplicate identifier 'carsQuery'.
+[35mserver:start: [0msrc/cars/index.tsx(2,27): error TS2307: Cannot find module './m' or its corresponding type declarations.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m
+[35mserver:start: [0m18:58:06 - Found 3 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:58:08 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/index.tsx(1,10): error TS2300: Duplicate identifier 'carsQuery'.
+[35mserver:start: [0msrc/cars/index.tsx(2,10): error TS2300: Duplicate identifier 'carsQuery'.
+[35mserver:start: [0msrc/cars/index.tsx(2,10): error TS2305: Module '"./mutations"' has no exported member 'carsQuery'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:58:08 - Found 3 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:58:11 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0msrc/cars/index.tsx(2,10): error TS2305: Module '"./mutations"' has no exported member 'c'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:58:11 - Found 1 error. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:58:12 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:58:12 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:58:17 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:58:18 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:58:29 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:58:29 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0mServer started
+[35mserver:start: [0mc18:58:50 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0mindex.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'AppQueryType'.
+[35mserver:start: [0mindex.ts(22,7): error TS2451: Cannot redeclare block-scoped variable 'AppQueryType'.
+[35mserver:start: [0m
+[35mserver:start: [0m18:58:50 - Found 2 errors. Watching for file changes.
+[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:18
+[35mserver:start: [0mconst AppQueryType = new graphql_1.GraphQLObjectType({
+[35mserver:start: [0m      ^
+[35mserver:start: [0m
+[35mserver:start: [0mSyntaxError: Identifier 'AppQueryType' has already been declared
+[35mserver:start: [0m    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1049:27)
 [35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
 [35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
 [35mserver:start: [0m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
 [35mserver:start: [0m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
 [35mserver:start: [0m    at internal/main/run_main_module.js:17:47
 [35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:19:53 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0merror TS18003: No inputs were found in config file '/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/tsconfig.json'. Specified 'include' paths were '["node_modules/tsconfig/**/*.ts","node_modules/tsconfig/**/*.tsx"]' and 'exclude' paths were '["dist"]'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:19:53 - Found 1 error. Watching for file changes.
-[35mserver:start: [0mc15:19:58 - File change detected. Starting incremental compilation...
+[35mserver:start: [0mc18:58:56 - File change detected. Starting incremental compilation...
 [35mserver:start: [0m
 [35mserver:start: [0m
-[35mserver:start: [0m15:20:01 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0m18:58:56 - Found 0 errors. Watching for file changes.
 [35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
 [35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
 [35mserver:start: [0mServer started
+[35mserver:start: [0mc18:59:01 - File change detected. Starting incremental compilation...
+[35mserver:start: [0m
+[35mserver:start: [0m
+[35mserver:start: [0m18:59:01 - Found 0 errors. Watching for file changes.
 [35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
 [35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
 [35mserver:start: [0mServer started
-[35mserver:start: [0mc15:20:05 - File change detected. Starting incremental compilation...
+[35mserver:start: [0mc18:59:05 - File change detected. Starting incremental compilation...
 [35mserver:start: [0m
 [35mserver:start: [0m
-[35mserver:start: [0m15:20:05 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0mc15:20:48 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:20:48 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m18:59:05 - Found 0 errors. Watching for file changes.
 [35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
 [35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
 [35mserver:start: [0mServer started
-[35mserver:start: [0mc15:20:58 - File change detected. Starting incremental compilation...
+[35mserver:start: [0mc18:59:10 - File change detected. Starting incremental compilation...
 [35mserver:start: [0m
-[35mserver:start: [0mindex.ts(13,10): error TS2305: Module '"./src/cars/models"' has no exported member 'CarsQuery'.
+[35mserver:start: [0mindex.ts(34,4): error TS2322: Type 'string' is not assignable to type 'Maybe<GraphQLObjectType<any, any>>'.
 [35mserver:start: [0m
-[35mserver:start: [0m15:20:58 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12
-[35mserver:start: [0m    throw new Error(message);
-[35mserver:start: [0m    ^
-[35mserver:start: [0m
-[35mserver:start: [0mError: Queryies.cars field config must be an object.
-[35mserver:start: [0m    at devAssert (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12:11)
-[35mserver:start: [0m    at /Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:697:55
-[35mserver:start: [0m    at mapValue (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/mapValue.js:23:20)
-[35mserver:start: [0m    at defineFieldMap (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:694:32)
-[35mserver:start: [0m    at GraphQLObjectType.getFields (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:633:27)
-[35mserver:start: [0m    at collectReferencedTypes (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:366:81)
-[35mserver:start: [0m    at new GraphQLSchema (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:153:7)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:20:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:21:00 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0mindex.ts(13,10): error TS2305: Module '"./src/cars/models"' has no exported member 'CarsQuery'.
-[35mserver:start: [0msrc/cars/queries.tsx(1,25): error TS2304: Cannot find name 'GraphQLFieldConfig'.
-[35mserver:start: [0msrc/cars/queries.tsx(2,11): error TS2304: Cannot find name 'GraphQLList'.
-[35mserver:start: [0msrc/cars/queries.tsx(2,23): error TS2304: Cannot find name 'CarType'.
-[35mserver:start: [0msrc/cars/queries.tsx(5,14): error TS2304: Cannot find name 'cars'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:21:01 - Found 5 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12
-[35mserver:start: [0m    throw new Error(message);
-[35mserver:start: [0m    ^
-[35mserver:start: [0m
-[35mserver:start: [0mError: Queryies.cars field config must be an object.
-[35mserver:start: [0m    at devAssert (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12:11)
-[35mserver:start: [0m    at /Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:697:55
-[35mserver:start: [0m    at mapValue (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/mapValue.js:23:20)
-[35mserver:start: [0m    at defineFieldMap (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:694:32)
-[35mserver:start: [0m    at GraphQLObjectType.getFields (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:633:27)
-[35mserver:start: [0m    at collectReferencedTypes (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:366:81)
-[35mserver:start: [0m    at new GraphQLSchema (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:153:7)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:20:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:21:07 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0mindex.ts(13,10): error TS2305: Module '"./src/cars/models"' has no exported member 'CarsQuery'.
-[35mserver:start: [0msrc/cars/queries.tsx(1,25): error TS2304: Cannot find name 'GraphQLFieldConfig'.
-[35mserver:start: [0msrc/cars/queries.tsx(2,11): error TS2304: Cannot find name 'GraphQLList'.
-[35mserver:start: [0msrc/cars/queries.tsx(2,23): error TS2304: Cannot find name 'CarType'.
-[35mserver:start: [0msrc/cars/queries.tsx(5,14): error TS2304: Cannot find name 'cars'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:21:07 - Found 5 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12
-[35mserver:start: [0m    throw new Error(message);
-[35mserver:start: [0m    ^
-[35mserver:start: [0m
-[35mserver:start: [0mError: Queryies.cars field config must be an object.
-[35mserver:start: [0m    at devAssert (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12:11)
-[35mserver:start: [0m    at /Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:697:55
-[35mserver:start: [0m    at mapValue (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/mapValue.js:23:20)
-[35mserver:start: [0m    at defineFieldMap (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:694:32)
-[35mserver:start: [0m    at GraphQLObjectType.getFields (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:633:27)
-[35mserver:start: [0m    at collectReferencedTypes (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:366:81)
-[35mserver:start: [0m    at new GraphQLSchema (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:153:7)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:20:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:21:13 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0mindex.ts(13,10): error TS2305: Module '"./src/cars/models"' has no exported member 'CarsQuery'.
-[35mserver:start: [0msrc/cars/queries.tsx(13,23): error TS2304: Cannot find name 'CarType'.
-[35mserver:start: [0msrc/cars/queries.tsx(16,14): error TS2304: Cannot find name 'cars'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:21:14 - Found 3 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12
-[35mserver:start: [0m    throw new Error(message);
-[35mserver:start: [0m    ^
-[35mserver:start: [0m
-[35mserver:start: [0mError: Queryies.cars field config must be an object.
-[35mserver:start: [0m    at devAssert (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12:11)
-[35mserver:start: [0m    at /Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:697:55
-[35mserver:start: [0m    at mapValue (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/mapValue.js:23:20)
-[35mserver:start: [0m    at defineFieldMap (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:694:32)
-[35mserver:start: [0m    at GraphQLObjectType.getFields (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:633:27)
-[35mserver:start: [0m    at collectReferencedTypes (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:366:81)
-[35mserver:start: [0m    at new GraphQLSchema (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:153:7)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:20:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:21:15 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0mindex.ts(13,10): error TS2305: Module '"./src/cars/models"' has no exported member 'CarsQuery'.
-[35mserver:start: [0msrc/cars/queries.tsx(13,21): error TS2304: Cannot find name 'CarType'.
-[35mserver:start: [0msrc/cars/queries.tsx(16,12): error TS2304: Cannot find name 'cars'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:21:16 - Found 3 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12
-[35mserver:start: [0m    throw new Error(message);
-[35mserver:start: [0m    ^
-[35mserver:start: [0m
-[35mserver:start: [0mError: Queryies.cars field config must be an object.
-[35mserver:start: [0m    at devAssert (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12:11)
-[35mserver:start: [0m    at /Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:697:55
-[35mserver:start: [0m    at mapValue (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/mapValue.js:23:20)
-[35mserver:start: [0m    at defineFieldMap (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:694:32)
-[35mserver:start: [0m    at GraphQLObjectType.getFields (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:633:27)
-[35mserver:start: [0m    at collectReferencedTypes (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:366:81)
-[35mserver:start: [0m    at new GraphQLSchema (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:153:7)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:20:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:21:20 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0mindex.ts(13,10): error TS2305: Module '"./src/cars/models"' has no exported member 'CarsQuery'.
-[35mserver:start: [0msrc/cars/queries.tsx(17,12): error TS2304: Cannot find name 'cars'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:21:20 - Found 2 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12
-[35mserver:start: [0m    throw new Error(message);
-[35mserver:start: [0m    ^
-[35mserver:start: [0m
-[35mserver:start: [0mError: Queryies.cars field config must be an object.
-[35mserver:start: [0m    at devAssert (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12:11)
-[35mserver:start: [0m    at /Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:697:55
-[35mserver:start: [0m    at mapValue (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/mapValue.js:23:20)
-[35mserver:start: [0m    at defineFieldMap (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:694:32)
-[35mserver:start: [0m    at GraphQLObjectType.getFields (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:633:27)
-[35mserver:start: [0m    at collectReferencedTypes (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:366:81)
-[35mserver:start: [0m    at new GraphQLSchema (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:153:7)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:20:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:21:25 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0mindex.ts(13,10): error TS2305: Module '"./src/cars/models"' has no exported member 'CarsQuery'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:21:25 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12
-[35mserver:start: [0m    throw new Error(message);
-[35mserver:start: [0m    ^
-[35mserver:start: [0m
-[35mserver:start: [0mError: Queryies.cars field config must be an object.
-[35mserver:start: [0m    at devAssert (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/devAssert.js:12:11)
-[35mserver:start: [0m    at /Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:697:55
-[35mserver:start: [0m    at mapValue (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/jsutils/mapValue.js:23:20)
-[35mserver:start: [0m    at defineFieldMap (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:694:32)
-[35mserver:start: [0m    at GraphQLObjectType.getFields (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:633:27)
-[35mserver:start: [0m    at collectReferencedTypes (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:366:81)
-[35mserver:start: [0m    at new GraphQLSchema (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:153:7)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:20:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:21:33 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0mindex.ts(21,13): error TS2304: Cannot find name 'CarsQuery'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:21:33 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:15
-[35mserver:start: [0m            cars: CarsQuery,
-[35mserver:start: [0m                  ^
-[35mserver:start: [0m
-[35mserver:start: [0mReferenceError: CarsQuery is not defined
-[35mserver:start: [0m    at fields (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:15:19)
-[35mserver:start: [0m    at resolveThunk (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:480:40)
-[35mserver:start: [0m    at defineFieldMap (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:692:18)
-[35mserver:start: [0m    at GraphQLObjectType.getFields (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:633:27)
-[35mserver:start: [0m    at collectReferencedTypes (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:366:81)
-[35mserver:start: [0m    at new GraphQLSchema (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:153:7)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:19:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:21:37 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:21:37 - Found 0 errors. Watching for file changes.
+[35mserver:start: [0m18:59:10 - Found 1 error. Watching for file changes.
 [35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
 [35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
 [35mserver:start: [0mServer started
-[35mserver:start: [0mc15:26:57 - File change detected. Starting incremental compilation...
+[35mserver:start: [0mc18:59:12 - File change detected. Starting incremental compilation...
 [35mserver:start: [0m
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0msrc/cars/queries.tsx(13,14): error TS2451: Cannot redeclare block-scoped variable 'CarsQuery'.
-[35mserver:start: [0msrc/cars/queries.tsx(21,14): error TS2451: Cannot redeclare block-scoped variable 'CarsQuery'.
 [35mserver:start: [0m
-[35mserver:start: [0m15:26:57 - Found 2 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:start: [0m18:59:12 - Found 0 errors. Watching for file changes.
 [35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
 [35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
 [35mserver:start: [0mServer started
-[35mserver:start: [0mc15:27:00 - File change detected. Starting incremental compilation...
+[35mserver:start: [0mc18:59:19 - File change detected. Starting incremental compilation...
 [35mserver:start: [0m
 [35mserver:start: [0m
-[35mserver:start: [0m15:27:01 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:27:07 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:27:07 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:27:15 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:27:15 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:27:21 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(14,18): error TS1005: ',' expected.
-[35mserver:start: [0msrc/cars/queries.tsx(14,19): error TS1136: Property assignment expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:27:21 - Found 2 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:27:23 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:27:23 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:27:46 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(30,1): error TS1128: Declaration or statement expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:27:46 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:27:59 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(30,1): error TS1128: Declaration or statement expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:00 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:28:02 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(30,1): error TS1128: Declaration or statement expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:02 - Found 1 error. Watching for file changes.
-[35mserver:start: [0mc15:28:04 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(30,1): error TS1128: Declaration or statement expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:04 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:20
-[35mserver:start: [0mcarsQuery;
-[35mserver:start: [0m^
-[35mserver:start: [0m
-[35mserver:start: [0mReferenceError: carsQuery is not defined
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:20:1)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
-[35mserver:start: [0m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
-[35mserver:start: [0m    at Module.require (internal/modules/cjs/loader.js:974:19)
-[35mserver:start: [0m    at require (internal/modules/cjs/helpers.js:93:18)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:9:19)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:28:06 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(30,1): error TS1128: Declaration or statement expected.
-[35mserver:start: [0msrc/cars/queries.tsx(30,8): error TS1434: Unexpected keyword or identifier.
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:06 - Found 2 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:20
-[35mserver:start: [0mcarsQuery;
-[35mserver:start: [0m^
-[35mserver:start: [0m
-[35mserver:start: [0mReferenceError: carsQuery is not defined
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:20:1)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
-[35mserver:start: [0m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
-[35mserver:start: [0m    at Module.require (internal/modules/cjs/loader.js:974:19)
-[35mserver:start: [0m    at require (internal/modules/cjs/helpers.js:93:18)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:9:19)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:28:10 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(30,24): error TS1005: ',' expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:10 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:28:16 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(30,24): error TS1005: ',' expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:16 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:28:20 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(30,24): error TS1005: ',' expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:20 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:28:21 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(30,24): error TS1005: ',' expected.
-[35mserver:start: [0msrc/cars/queries.tsx(32,1): error TS1003: Identifier expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:21 - Found 2 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:3
-[35mserver:start: [0mexports. = exports.carsQuery = exports.CarsQuery = exports.CarQuery = void 0;
-[35mserver:start: [0m         ^
-[35mserver:start: [0m
-[35mserver:start: [0mSyntaxError: Unexpected token '='
-[35mserver:start: [0m    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1049:27)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
-[35mserver:start: [0m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
-[35mserver:start: [0m    at Module.require (internal/modules/cjs/loader.js:974:19)
-[35mserver:start: [0m    at require (internal/modules/cjs/helpers.js:93:18)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:9:19)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:28:26 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(30,24): error TS1005: ',' expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:26 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:28:27 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(30,24): error TS1005: ',' expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:27 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:28:37 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:37 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:28:42 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(32,2): error TS1117: An object literal cannot have multiple properties with the same name.
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:42 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:28:45 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:45 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:28:49 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:49 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:28:50 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:28:50 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:29:04 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0mindex.ts(22,10): error TS2304: Cannot find name 'carsq'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:29:04 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:14
-[35mserver:start: [0m        return Object.assign({}, carsq);
-[35mserver:start: [0m                                 ^
-[35mserver:start: [0m
-[35mserver:start: [0mReferenceError: carsq is not defined
-[35mserver:start: [0m    at fields (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:14:34)
-[35mserver:start: [0m    at resolveThunk (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:480:40)
-[35mserver:start: [0m    at defineFieldMap (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:692:18)
-[35mserver:start: [0m    at GraphQLObjectType.getFields (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/definition.js:633:27)
-[35mserver:start: [0m    at collectReferencedTypes (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:366:81)
-[35mserver:start: [0m    at new GraphQLSchema (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/graphql/type/schema.js:153:7)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:17:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:29:05 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:29:05 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:29:07 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:29:07 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:33:35 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(17,10): error TS1005: ',' expected.
-[35mserver:start: [0msrc/cars/queries.tsx(17,12): error TS1136: Property assignment expected.
-[35mserver:start: [0msrc/cars/queries.tsx(17,15): error TS1005: ';' expected.
-[35mserver:start: [0msrc/cars/queries.tsx(19,4): error TS1128: Declaration or statement expected.
-[35mserver:start: [0msrc/cars/queries.tsx(20,1): error TS1128: Declaration or statement expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:33:36 - Found 5 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:9
-[35mserver:start: [0m    args: resolve
-[35mserver:start: [0m          ^
-[35mserver:start: [0m
-[35mserver:start: [0mReferenceError: resolve is not defined
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:9:11)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
-[35mserver:start: [0m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
-[35mserver:start: [0m    at Module.require (internal/modules/cjs/loader.js:974:19)
-[35mserver:start: [0m    at require (internal/modules/cjs/helpers.js:93:18)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:9:19)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:33:37 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(17,3): error TS1005: ',' expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:33:37 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:33:39 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:33:39 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:33:42 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0msrc/cars/queries.tsx(17,5): error TS18004: No value exists in scope for the shorthand property 'id'. Either declare one or provide an initializer.
-[35mserver:start: [0m
-[35mserver:start: [0m15:33:42 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:10
-[35mserver:start: [0m        id
-[35mserver:start: [0m        ^
-[35mserver:start: [0m
-[35mserver:start: [0mReferenceError: id is not defined
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:10:9)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
-[35mserver:start: [0m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
-[35mserver:start: [0m    at Module.require (internal/modules/cjs/loader.js:974:19)
-[35mserver:start: [0m    at require (internal/modules/cjs/helpers.js:93:18)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:9:19)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:33:44 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(18,3): error TS1109: Expression expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:33:44 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:11
-[35mserver:start: [0m    },
-[35mserver:start: [0m    ^
-[35mserver:start: [0m
-[35mserver:start: [0mSyntaxError: Unexpected token '}'
-[35mserver:start: [0m    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1049:27)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
-[35mserver:start: [0m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
-[35mserver:start: [0m    at Module.require (internal/modules/cjs/loader.js:974:19)
-[35mserver:start: [0m    at require (internal/modules/cjs/helpers.js:93:18)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:9:19)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:33:49 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(17,16): error TS1109: Expression expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:33:49 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:10
-[35mserver:start: [0m        id: { type:  }
-[35mserver:start: [0m                     ^
-[35mserver:start: [0m
-[35mserver:start: [0mSyntaxError: Unexpected token '}'
-[35mserver:start: [0m    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1049:27)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
-[35mserver:start: [0m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
-[35mserver:start: [0m    at Module.require (internal/modules/cjs/loader.js:974:19)
-[35mserver:start: [0m    at require (internal/modules/cjs/helpers.js:93:18)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:9:19)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:33:56 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:33:56 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:33:58 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:33:59 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:34:03 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:34:04 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:34:05 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:34:06 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:34:08 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:34:08 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:34:19 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(20,17): error TS2339: Property 'fi' does not exist on type '{ id: number; brand: string; ownerId: number; }[]'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:34:19 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:34:21 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(20,17): error TS2554: Expected 1-2 arguments, but got 0.
-[35mserver:start: [0m
-[35mserver:start: [0m15:34:21 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:34:24 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(20,23): error TS2552: Cannot find name 'car'. Did you mean 'cars'?
-[35mserver:start: [0m
-[35mserver:start: [0m15:34:24 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:34:28 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(20,29): error TS1109: Expression expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:34:28 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:13
-[35mserver:start: [0m        return models_1.cars.find((car) = );
-[35mserver:start: [0m                                          ^
-[35mserver:start: [0m
-[35mserver:start: [0mSyntaxError: Unexpected token ')'
-[35mserver:start: [0m    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1049:27)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
-[35mserver:start: [0m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
-[35mserver:start: [0m    at Module.require (internal/modules/cjs/loader.js:974:19)
-[35mserver:start: [0m    at require (internal/modules/cjs/helpers.js:93:18)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:9:19)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:34:33 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(20,41): error TS1109: Expression expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:34:33 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0m/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/src/cars/queries.js:13
-[35mserver:start: [0m        return models_1.cars.find((car) => car.id == );
-[35mserver:start: [0m                                                     ^
-[35mserver:start: [0m
-[35mserver:start: [0mSyntaxError: Unexpected token ')'
-[35mserver:start: [0m    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1049:27)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
-[35mserver:start: [0m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
-[35mserver:start: [0m    at Module.require (internal/modules/cjs/loader.js:974:19)
-[35mserver:start: [0m    at require (internal/modules/cjs/helpers.js:93:18)
-[35mserver:start: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:9:19)
-[35mserver:start: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-[35mserver:start: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-[35mserver:start: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m
-[35mserver:start: [0mc15:34:35 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/queries.tsx(20,41): error TS2552: Cannot find name 'arg'. Did you mean 'args'?
-[35mserver:start: [0m
-[35mserver:start: [0m15:34:35 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:34:38 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:34:38 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:38:02 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:38:02 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:38:12 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:38:12 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:38:34 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:38:34 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0mc15:38:37 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:38:37 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:39:12 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:39:13 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:39:16 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:39:16 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:41:53 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:41:53 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:42:21 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/index.tsx(1,1): error TS2304: Cannot find name 'impo'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:42:21 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:42:24 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/index.tsx(1,1): error TS2304: Cannot find name 'cr'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:42:24 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:42:25 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/index.tsx(1,1): error TS2304: Cannot find name 'c'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:42:25 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:42:27 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/index.tsx(1,1): error TS2304: Cannot find name 'carsq'.
-[35mserver:start: [0m
-[35mserver:start: [0m15:42:27 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:42:30 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:42:30 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:42:36 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/index.tsx(3,1): error TS2552: Cannot find name 'excarsQuery'. Did you mean 'carsQuery'?
-[35mserver:start: [0m
-[35mserver:start: [0m15:42:36 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:42:39 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/index.tsx(3,1): error TS1128: Declaration or statement expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:42:39 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:42:40 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0msrc/cars/index.tsx(3,18): error TS1005: '}' expected.
-[35mserver:start: [0m
-[35mserver:start: [0m15:42:40 - Found 1 error. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:42:43 - File change detected. Starting incremental compilation...
-[35mserver:start: [0m
-[35mserver:start: [0m
-[35mserver:start: [0m15:42:43 - Found 0 errors. Watching for file changes.
-[35mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
-[35mserver:start: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
-[35mserver:start: [0mServer started
-[35mserver:start: [0mc15:42:58 - File change detected. Starting incremental compilation...
-[35mserv
+[35mserver:start: [0m18:59:19 - Found 0 errors. Watching for file changes.
+[35mse

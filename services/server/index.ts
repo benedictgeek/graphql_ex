@@ -5,7 +5,7 @@ import {
   GraphQLFieldConfigMap,
 } from "graphql";
 import { graphqlHTTP } from "express-graphql";
-import { carsQuery } from "./src/cars";
+import { carsQuery, carsMutation } from "./src/cars";
 
 const app: Express = express();
 
@@ -19,9 +19,19 @@ const AppQueryType = new GraphQLObjectType({
   },
 });
 
+const AppMutationType = new GraphQLObjectType({
+  name: "Mutations",
+  description: "All mutations",
+  fields: (): GraphQLFieldConfigMap<any, any> => {
+    return {
+      ...carsMutation,
+    };
+  },
+});
+
 const Schema = new GraphQLSchema({
   query: AppQueryType,
-  //  mutation: ""
+  mutation: AppMutationType,
 });
 
 app.use("/graphql", graphqlHTTP({ schema: Schema, graphiql: true }));
