@@ -23,7 +23,7 @@ const CarType = new graphql_1.GraphQLObjectType({
     fields: () => ({
         id: { type: (0, graphql_1.GraphQLNonNull)(graphql_1.GraphQLInt) },
         brand: { type: (0, graphql_1.GraphQLNonNull)(graphql_1.GraphQLString) },
-        ownerId: { type: (0, graphql_1.GraphQLNonNull)(graphql_1.GraphQLInt) },
+        ownerId: { type: (0, graphql_1.GraphQLNonNull)(graphql_1.GraphQLInt) }
     }),
 });
 const AppQueryType = new graphql_1.GraphQLObjectType({

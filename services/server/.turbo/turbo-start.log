@@ -1,0 +1,78 @@
+[32mserver:start[0m: cache hit, replaying output [2m0f2a82cc3f3e70e9[0m
+[32mserver:start: [0m
+[32mserver:start: [0m> server@1.0.0 start
+[32mserver:start: [0m> tsc --watch & nodemon index.js
+[32mserver:start: [0m
+[32mserver:start: [0m[33m[nodemon] 2.0.19[39m
+[32mserver:start: [0m[33m[nodemon] to restart at any time, enter `rs`[39m
+[32mserver:start: [0m[33m[nodemon] watching path(s): *.*[39m
+[32mserver:start: [0m[33m[nodemon] watching extensions: js,mjs,json[39m
+[32mserver:start: [0m[32m[nodemon] starting `node index.js`[39m
+[32mserver:start: [0mc07:56:38 - Starting compilation in watch mode...
+[32mserver:start: [0m
+[32mserver:start: [0mServer started
+[32mserver:start: [0m
+[32mserver:start: [0m07:56:41 - Found 0 errors. Watching for file changes.
+[32mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[32mserver:start: [0m[32m[nodemon] starting `node index.js`[39m
+[32mserver:start: [0mServer started
+[32mserver:start: [0mc07:56:48 - File change detected. Starting incremental compilation...
+[32mserver:start: [0m
+[32mserver:start: [0m
+[32mserver:start: [0m07:56:49 - Found 0 errors. Watching for file changes.
+[32mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[32mserver:start: [0m[32m[nodemon] starting `node index.js`[39m
+[32mserver:start: [0mServer started
+[32mserver:start: [0mc07:59:52 - File change detected. Starting incremental compilation...
+[32mserver:start: [0m
+[32mserver:start: [0mindex.ts(34,5): error TS1117: An object literal cannot have multiple properties with the same name.
+[32mserver:start: [0m
+[32mserver:start: [0m07:59:53 - Found 1 error. Watching for file changes.
+[32mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[32mserver:start: [0m[32m[nodemon] starting `node index.js`[39m
+[32mserver:start: [0mServer started
+[32mserver:start: [0mc07:59:59 - File change detected. Starting incremental compilation...
+[32mserver:start: [0m
+[32mserver:start: [0m
+[32mserver:start: [0m07:59:59 - Found 0 errors. Watching for file changes.
+[32mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[32mserver:start: [0m[32m[nodemon] starting `node index.js`[39m
+[32mserver:start: [0mServer started
+[32mserver:start: [0mc08:00:22 - File change detected. Starting incremental compilation...
+[32mserver:start: [0m
+[32mserver:start: [0m
+[32mserver:start: [0m08:00:23 - Found 0 errors. Watching for file changes.
+[32mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[32mserver:start: [0m[32m[nodemon] starting `node index.js`[39m
+[32mserver:start: [0mServer started
+[32mserver:start: [0mc08:00:23 - File change detected. Starting incremental compilation...
+[32mserver:start: [0m
+[32mserver:start: [0mindex.ts(34,28): error TS1005: ',' expected.
+[32mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[32mserver:start: [0mindex.ts(35,3): error TS1135: Argument expression expected.
+[32mserver:start: [0mindex.ts(35,4): error TS1128: Declaration or statement expected.
+[32mserver:start: [0mindex.ts(35,5): error TS1128: Declaration or statement expected.
+[32mserver:start: [0mindex.ts(36,1): error TS1128: Declaration or statement expected.
+[32mserver:start: [0mindex.ts(36,2): error TS1128: Declaration or statement expected.
+[32mserver:start: [0m
+[32mserver:start: [0m08:00:24 - Found 6 errors. Watching for file changes.
+[32mserver:start: [0m[32m[nodemon] starting `node index.js`[39m
+[32mserver:start: [0mServer started
+[32mserver:start: [0mc08:00:26 - File change detected. Starting incremental compilation...
+[32mserver:start: [0m
+[32mserver:start: [0m
+[32mserver:start: [0m08:00:26 - Found 0 errors. Watching for file changes.
+[32mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[32mserver:start: [0m[32m[nodemon] starting `node index.js`[39m
+[32mserver:start: [0mServer started
+[32mserver:start: [0mc08:00:57 - File change detected. Starting incremental compilation...
+[32mserver:start: [0m
+[32mserver:start: [0m
+[32mserver:start: [0m08:00:57 - Found 0 errors. Watching for file changes.
+[32mserver:start: [0m[32m[nodemon] restarting due to changes...[39m
+[32mserver:start: [0m[32m[nodemon] starting `node index.js`[39m
+[32mserver:start: [0mServer started
+[32mserver:start: [0mnpm ERR! Lifecycle script `start` failed with error: 
+[32mserver:start: [0mnpm ERR! Error: command failed 
+[32mserver:start: [0mnpm ERR!   in workspace: server@1.0.0 
+[32mserver:start: [0mnpm ERR!   at location: /Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server 

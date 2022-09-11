@@ -30,7 +30,7 @@ const CarType = new GraphQLObjectType({
   fields: () => ({
     id: { type: GraphQLNonNull(GraphQLInt) },
     brand: { type: GraphQLNonNull(GraphQLString) },
-    ownerId: { type: GraphQLNonNull(GraphQLInt) },
+    ownerId: { type: GraphQLNonNull(GraphQLInt) }
   }),
 });
 
