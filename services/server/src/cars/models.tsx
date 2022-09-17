@@ -24,9 +24,9 @@ export const CarType = new GraphQLObjectType({
   name: "Car",
   description: "This is a car object",
   fields: () => ({
-    id: { type: GraphQLNonNull(GraphQLInt) },
-    brand: { type: GraphQLNonNull(GraphQLString) },
-    ownerId: { type: GraphQLNonNull(GraphQLInt) },
+    id: { type: new GraphQLNonNull(GraphQLInt) },
+    brand: { type: new GraphQLNonNull(GraphQLString) },
+    ownerId: { type: new GraphQLNonNull(GraphQLInt) },
   }),
 });
 

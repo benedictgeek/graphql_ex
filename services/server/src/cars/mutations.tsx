@@ -14,9 +14,7 @@ export const createCar: GraphQLFieldConfig<any, any> = {
   type: CarType,
   description: "Create a car",
   args: {
-    // id: { type: GraphQLInt },
-    brand: { type: GraphQLNonNull(GraphQLString) },
-    // ownerId: { type: GraphQLNonNull(GraphQLString) },
+    brand: { type: new GraphQLNonNull(GraphQLString) },
   },
   resolve: (_, args) => {
     let newCar = { id: 6, brand: args.brand, ownerId: 2 };

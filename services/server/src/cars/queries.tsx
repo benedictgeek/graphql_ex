@@ -22,7 +22,7 @@ export const CarQuery: GraphQLFieldConfig<any, any> = {
 };
 
 export const CarsQuery: GraphQLFieldConfig<any, any> = {
-  type: GraphQLList(CarType),
+  type: new GraphQLList(CarType),
   description: "List all cars",
   resolve: () => {
     return cars;
