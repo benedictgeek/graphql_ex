@@ -1,0 +1,33 @@
+[35mserver:dev[0m: cache hit, replaying output [2m7c327dfc35249c9d[0m
+[35mserver:dev: [0myarn run v1.22.19
+[35mserver:dev: [0m$ npx kill-port 4040 && tsc --watch & nodemon index.js
+[35mserver:dev: [0m[33m[nodemon] 2.0.20[39m
+[35mserver:dev: [0m[33m[nodemon] to restart at any time, enter `rs`[39m
+[35mserver:dev: [0m[33m[nodemon] watching path(s): *.*[39m
+[35mserver:dev: [0m[33m[nodemon] watching extensions: js,mjs,json[39m
+[35mserver:dev: [0m[32m[nodemon] starting `node index.js dist/index.js`[39m
+[35mserver:dev: [0mevents.js:377
+[35mserver:dev: [0m      throw er; // Unhandled 'error' event
+[35mserver:dev: [0m      ^
+[35mserver:dev: [0m
+[35mserver:dev: [0mError: listen EADDRINUSE: address already in use :::4040
+[35mserver:dev: [0m    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+[35mserver:dev: [0m    at listenInCluster (net.js:1379:12)
+[35mserver:dev: [0m    at Server.listen (net.js:1465:7)
+[35mserver:dev: [0m    at Function.listen (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/node_modules/express/lib/application.js:635:24)
+[35mserver:dev: [0m    at Object.<anonymous> (/Users/mac/Desktop/Personal/Projects/GraphQL_Ex/services/server/dist/index.js:30:5)
+[35mserver:dev: [0m    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+[35mserver:dev: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+[35mserver:dev: [0m    at Module.load (internal/modules/cjs/loader.js:950:32)
+[35mserver:dev: [0m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+[35mserver:dev: [0m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+[35mserver:dev: [0mEmitted 'error' event on Server instance at:
+[35mserver:dev: [0m    at emitErrorNT (net.js:1358:8)
+[35mserver:dev: [0m    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+[35mserver:dev: [0m  code: 'EADDRINUSE',
+[35mserver:dev: [0m  errno: -48,
+[35mserver:dev: [0m  syscall: 'listen',
+[35mserver:dev: [0m  address: '::',
+[35mserver:dev: [0m  port: 4040
+[35mserver:dev: [0m}
+[35mserver:dev: [0m[31m[nodemon] app crashed - waiting for file changes before starting...[39m

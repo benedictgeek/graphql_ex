@@ -1,0 +1,6 @@
+[32mparent-ui:kill:dev[0m: cache hit, replaying output [2m57c0f1eb05f4535d[0m
+[32mparent-ui:kill:dev: [0myarn run v1.22.19
+[32mparent-ui:kill:dev: [0m$ kill -9 $(lsof -ti:3322)
+[32mparent-ui:kill:dev: [0mkill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+[32mparent-ui:kill:dev: [0merror Command failed with exit code 1.
+[32mparent-ui:kill:dev: [0minfo Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

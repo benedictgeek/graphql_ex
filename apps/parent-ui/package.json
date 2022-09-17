@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "(kill -9 $(lsof -ti:3322) || echo ) && next dev -p 3322",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

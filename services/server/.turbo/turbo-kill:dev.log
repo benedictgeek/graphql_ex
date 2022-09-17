@@ -1,0 +1,3 @@
+[35mserver:kill:dev[0m: cache hit, replaying output [2m3de0136f9433d50a[0m
+[35mserver:kill:dev: [0myarn run v1.22.19
+[35mserver:kill:dev: [0m$ kill -9 $(lsof -ti:4000)

@@ -1,0 +1,3 @@
+[32mparent-ui:dev[0m: cache hit, replaying output [2mdacef74adfa202ee[0m
+[32mparent-ui:dev: [0myarn run v1.22.19
+[32mparent-ui:dev: [0m$ npx kill-port 3322 && next dev

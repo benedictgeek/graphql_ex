@@ -1,16 +1,16 @@
-[32mparent-ui:start[0m: cache hit, replaying output [2mbaffa2fb86193d70[0m
-[32mparent-ui:start: [0myarn run v1.22.19
-[32mparent-ui:start: [0m$ next start
-[32mparent-ui:start: [0mError: listen EADDRINUSE: address already in use 0.0.0.0:3000
-[32mparent-ui:start: [0m    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
-[32mparent-ui:start: [0m    at listenInCluster (net.js:1379:12)
-[32mparent-ui:start: [0m    at doListen (net.js:1516:7)
-[32mparent-ui:start: [0m    at processTicksAndRejections (internal/process/task_queues.js:83:21) {
-[32mparent-ui:start: [0m  code: 'EADDRINUSE',
-[32mparent-ui:start: [0m  errno: -48,
-[32mparent-ui:start: [0m  syscall: 'listen',
-[32mparent-ui:start: [0m  address: '0.0.0.0',
-[32mparent-ui:start: [0m  port: 3000
-[32mparent-ui:start: [0m}
-[32mparent-ui:start: [0merror Command failed with exit code 1.
-[32mparent-ui:start: [0minfo Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+[35mparent-ui:start[0m: cache hit, replaying output [2m41fa391a717b9f05[0m
+[35mparent-ui:start: [0myarn run v1.22.19
+[35mparent-ui:start: [0m$ next start
+[35mparent-ui:start: [0mError: listen EADDRINUSE: address already in use 0.0.0.0:3000
+[35mparent-ui:start: [0m    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+[35mparent-ui:start: [0m    at listenInCluster (net.js:1379:12)
+[35mparent-ui:start: [0m    at doListen (net.js:1516:7)
+[35mparent-ui:start: [0m    at processTicksAndRejections (internal/process/task_queues.js:83:21) {
+[35mparent-ui:start: [0m  code: 'EADDRINUSE',
+[35mparent-ui:start: [0m  errno: -48,
+[35mparent-ui:start: [0m  syscall: 'listen',
+[35mparent-ui:start: [0m  address: '0.0.0.0',
+[35mparent-ui:start: [0m  port: 3000
+[35mparent-ui:start: [0m}
+[35mparent-ui:start: [0merror Command failed with exit code 1.
+[35mparent-ui:start: [0minfo Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

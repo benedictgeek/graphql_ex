@@ -1,4 +1,4 @@
-[33mserver:start[0m: cache hit, replaying output [2mae62f983a2c24775[0m
+[33mserver:start[0m: cache hit, replaying output [2m1d119160340ec9d7[0m
 [33mserver:start: [0myarn run v1.22.19
 [33mserver:start: [0m$ tsc --watch & nodemon index.js
 [33mserver:start: [0m[33m[nodemon] 2.0.20[39m
