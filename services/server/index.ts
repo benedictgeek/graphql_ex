@@ -6,8 +6,15 @@ import {
 } from "graphql";
 import { graphqlHTTP } from "express-graphql";
 import { carsQuery, carsMutation } from "./src/cars";
+import cors from "cors";
 
 const app: Express = express();
+
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 
 const AppQueryType = new GraphQLObjectType({
   name: "Queryies",
